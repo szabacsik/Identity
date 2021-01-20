@@ -1,0 +1,31 @@
+{
+    "name": "szabacsik/identity",
+    "description": "Identity Immutable Value Object",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "ramsey/uuid": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "András Szabácsik",
+            "homepage": "http://github.com/szabacsik/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Szabacsik\\Identity\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Szabacsik\\Identity\\Test\\": "tests"
+        }
+    }
+}
