@@ -3,7 +3,7 @@
     "description": "Identity Immutable Value Object",
     "type": "library",
     "require": {
-        "php": ">=7.2",
+        "php": "^7.2 || ^8.0",
         "ramsey/uuid": "*"
     },
     "require-dev": {
