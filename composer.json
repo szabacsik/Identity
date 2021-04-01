@@ -27,5 +27,12 @@
         "psr-4": {
             "Szabacsik\\Identity\\Test\\": "tests"
         }
+    },
+    "scripts": {
+        "phpunit": "phpunit --verbose --colors=always",
+        "phpunit-coverage": "phpunit --verbose --colors=always --coverage-html build/coverage",
+        "test": [
+            "@phpunit"
+        ]
     }
 }
